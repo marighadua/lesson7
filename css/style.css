@@ -1,0 +1,62 @@
+ .background-img{
+    background-image: url('../images/animation.avif');
+    width: 100%;
+    height: 1200px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+    position: relative; 
+
+}
+
+
+.moon {
+    position: absolute;
+	width: 350px;
+	height: 300px;
+	top: 200px;
+	right: 300px;
+	z-index: 1;
+	animation: moon 28s 
+}
+@keyframes moon {
+    0% { top: 200px; }
+ 	100% {top: 300px; }
+}
+
+
+
+.home {
+    position: absolute;
+    width: 600px;
+    top: 700px;
+    left: 650px;
+}
+
+.santa {
+
+    position: absolute;
+	top: 500px;
+	left: 0px;
+	width: 950px;
+	animation-name: santa;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+ @keyframes santa {
+
+ 	from { left: 100px; }
+ 	to {left: 100%;  }
+    
+ }
+ .hou-hou {
+    position: absolute;
+    top:450px;
+    width: 550px;
+	animation-name: santa;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+ }
